@@ -1,0 +1,35 @@
+.page {
+    display: none;
+}
+
+.page.active {
+    display: block;
+}
+
+body.not-authenticated .role-logged-in {
+    display: none !important;
+}
+
+body.authenticated .role-logged-out {
+    display: none !important;
+}
+
+.role-admin {
+    display: none !important;
+}
+
+body.is-admin section.role-admin.page.active {
+    display: block !important;
+}
+
+body.is-admin .dropdown-menu .role-admin {
+    display: block !important;
+}
+
+.form-box {
+    max-width: 450px;
+    border: 1px solid #dee2e6;
+    padding: 1rem;
+    margin-top: 1rem;
+    border-radius: 4px;
+}
