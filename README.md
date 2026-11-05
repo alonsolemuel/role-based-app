@@ -33,7 +33,7 @@ Node.js · Express 5 · JSON Web Token · bcryptjs · HTML · CSS · JavaScript
 ## 🚀 Getting Started
 
 ```bash
-git clone https://github.com/Aya12234567/role-based-app.git
+git clone https://github.com/alonsolemuel/role-based-app.git
 cd role-based-app/role-based-app-backend
 npm install
 npm run dev
